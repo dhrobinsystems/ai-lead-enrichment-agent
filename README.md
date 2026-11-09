@@ -1,5 +1,7 @@
 # AI-Powered Lead Enrichment & Qualification Agent
 
+![n8n Workflow Architecture](assets/n8n-ai-enrichment-workflow.png)
+
 > A Node.js service and an n8n workflow that take a company domain, pull firmographics from **Apollo**, have an LLM score the company against your Ideal Customer Profile (ICP) and write a short outreach opener, then create or update the company in **HubSpot**.
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
