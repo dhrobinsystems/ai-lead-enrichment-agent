@@ -1,0 +1,36 @@
+{
+  "name": "ai-lead-enrichment-agent",
+  "version": "1.1.0",
+  "description": "AI-powered lead enrichment and ICP qualification agent for HubSpot CRM and n8n",
+  "main": "src/agent-enrichment.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node src/agent-enrichment.js",
+    "setup:hubspot": "node scripts/create-hubspot-properties.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "revops",
+    "hubspot",
+    "n8n",
+    "ai-agents",
+    "enrichment",
+    "icp-scoring"
+  ],
+  "author": "DH Robin <robin@dhrobinsystems.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
